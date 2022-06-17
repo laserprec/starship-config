@@ -38,19 +38,19 @@ truncation_symbol = "…/"
 style = "bold green"
 
 [git_status]
-format = '[\($all_status$ahead_behind\)]($style) '
+format = '[<$all_status$ahead_behind>]($style) '
 style = "bold green"
 conflicted = '[≠\($count\)](red)'
-ahead = "⇡ $count"
-behind = "⇣ $count"
-diverged = "😵 $count"
-up_to_date = "✓ "
-untracked = "🤷 $count"
-stashed = "📦 $count"
-modified = "📝 $count"
+ahead = '⇡\($count\)'
+behind = '⇣\($count\)'
+diverged = '😵\($count\)'
+up_to_date = "✓"
+untracked = '🤷\($count\)'
+stashed = '📦'
+modified = '📝\($count\)'
 staged = '[++\($count\)](green)'
-renamed = "» "
-deleted = "🗑 "
+renamed = '»\($count\)'
+deleted = '🗑\($count\)'
 
 [azure]
 disabled = true
