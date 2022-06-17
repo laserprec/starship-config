@@ -38,8 +38,6 @@ format = "at [$path]($style)[$read_only]($read_only_style) "
 [git_branch]
 symbol = "Ч "
 format = "on [$symbol$branch]($style) "
-truncation_length = 10
-truncation_symbol = "…/"
 style = "bold green"
 
 [git_status]
