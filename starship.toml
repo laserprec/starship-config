@@ -21,6 +21,10 @@ format = "[$user]($style) "
 disabled = true  # disable in powershell
 show_always = false
 
+[hostname]
+ssh_only=true
+format="[$ssh_symbol$hostname]($style)"
+
 [directory]
 truncate_to_repo = true
 truncation_length = 5
