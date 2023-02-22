@@ -5,6 +5,10 @@ To install:
 1. `git clone https://github.com/laserprec/starship-config.git`
 1. `cd starship-config && chmod +x install-starship.sh && ./install-starship.sh`
 
+On MacOs (with Zsh):
+1. `git clone https://github.com/laserprec/starship-config.git`
+2. `cd starship-config && chmod +x install-starship.zsh && ./install-starship.zsh`
+
 On windows:
 1. `git clone https://github.com/laserprec/starship-config.git`
 1. `cd starship-config;.\install-starship.ps1`
