@@ -3,11 +3,11 @@ Personal starship prompt configuration
 
 To install:
 1. `git clone https://github.com/laserprec/starship-config.git`
-1. `cd starship-config && chmod +x install-starship.sh && ./install-starship.sh`
+1. `cd starship-config && chmod +x install-starship.sh && bash install-starship.sh`
 
 On MacOs (with Zsh):
 1. `git clone https://github.com/laserprec/starship-config.git`
-2. `cd starship-config && chmod +x install-starship.zsh && ./install-starship.zsh`
+2. `cd starship-config && chmod +x install-starship.zsh && zsh install-starship.zsh`
 
 On windows:
 1. `git clone https://github.com/laserprec/starship-config.git`
