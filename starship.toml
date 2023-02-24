@@ -5,8 +5,8 @@ add_newline = true
 
 # Change the default prompt format
 format = """\
-[╭╴](white)$env_var\
-$all[╰─](white)$character"""
+[╭╴](white)$all\
+[╰─](white)$character"""
 
 # Change the default prompt characters
 [character]
@@ -78,10 +78,14 @@ python_binary = "python3"
 format = "via [$version](bold green) "
 disabled = true
 
-
 [kubernetes]
-format = 'on [$context\($namespace\)](bold purple) '
+format = 'k8s [$context\($namespace\)](bold blue) '
 disabled = false
+
 [kubernetes.context_aliases]
 "clcreative-k8s-staging" = "cl-k8s-staging"
 "clcreative-k8s-production" = "cl-k8s-prod"
+
+# if in docker container
+[container]
+disabled = true
