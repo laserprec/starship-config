@@ -1,6 +1,8 @@
 # starship-config
 Personal starship prompt configuration
 
+<img width="511" alt="Screenshot 2023-02-24 at 12 29 45 PM" src="https://user-images.githubusercontent.com/19534002/221247781-eadd08d9-ccd7-4d51-aad9-f488c71486b7.png">
+
 To install:
 1. `git clone https://github.com/laserprec/starship-config.git`
 1. `cd starship-config && chmod +x install-starship.sh && bash install-starship.sh`
